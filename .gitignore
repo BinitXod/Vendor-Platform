@@ -1,4 +1,4 @@
-# Python-generated files
+# Python
 __pycache__/
 *.py[oc]
 build/
@@ -17,6 +17,14 @@ htmlcov/
 venv/
 env/
 
+# Node / Next.js
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+next-env.d.ts
+
 # Environment / secrets
 .env
 .env.*
@@ -32,7 +40,9 @@ env/
 .DS_Store
 Thumbs.db
 
-# Project-specific
+# Project-specific runtime output
+apps/backend/uploads/
+apps/backend/reports/
 uploads/
 reports/
 logs/
